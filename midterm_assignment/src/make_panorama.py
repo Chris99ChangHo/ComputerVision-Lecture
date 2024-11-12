@@ -88,7 +88,7 @@ class Panorama(QMainWindow):
         # fname = QFileDialog.getSaveFileName(self, '파일저장', './')
         # cv.imwrite(fname[0], self.img_stiched)
 
-        fname = QFileDialog.getSaveFileName(self, '파일저장', './panorama.jpg')  # 기본 파일 이름 설정(추가된 코드)
+        fname = QFileDialog.getSaveFileName(self, '파일저장', './img/panorama.jpg')  # 기본 파일 이름 설정(추가된 코드)
         if fname[0]:  # 파일 이름이 선택되었는지 확인
             if not fname[0].endswith(('.jpg', '.jpeg', '.png')): # 확장자가 없으면 .jpg 추가
                 fname = (fname[0] + '.jpg',)  # 기본 확장자 추가

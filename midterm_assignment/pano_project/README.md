@@ -11,8 +11,10 @@
 
 ## 실행 방법
 1. 가상 환경을 설정하고 활성화합니다.
+  conda create -n ma python=3.11
+  conda activate ma 
 2. 의존성을 설치합니다.
   pip install -r ./pano_project/requirements.txt
 3. 프로그램을 실행합니다.
   python ./src/make_panorama.py
-
+  혹은 실행파일 make_panorama.exe

@@ -1,0 +1,4 @@
+opencv-python==4.10.0
+opencv-contrib-python==4.10.0 # 유화기능 에러 때문에 추가 충돌이 일어날 수 있음 충돌시 2번줄 삭제 후 3번줄만 남기기
+PyQt6==6.7.1
+numpy==2.1.3

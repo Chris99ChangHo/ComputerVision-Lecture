@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "make_specialeffect.py" 
+version = "0.1.0"  
+description = "사진 및 웹캠 비디오에 실시간으로 특수 효과를 적용하는 PyQt6 애플리케이션입니다."  
+authors = ["장창호 <awakeev.d@gmail.com>"]  
+license = 
+
+[tool.poetry.dependencies]
+python = "3.11.10" 
+opencv-python = "4.10.0"  
+opencv-contrib-python = "4.10.0"
+numpy = "2.1.3"  # NumPy 버전
+PyQt6 = "6.7.1"  # PyQt6 버전
+
+[build-system]
+requires = 
+build-backend = 

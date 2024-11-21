@@ -34,3 +34,4 @@
 각 프로그램에 대한 실행은 `dist` 디렉터리 안에 있는 .exe파일로 실행할 수 있습니다.
 - **make_panorama.exe**: 콘솔 창이 함께 나타남(--onefile)
 - **make_specialeffect.exe**: 콘솔 창 없이 GUI 애플리케이션으로 실행(--onefile --windowed)
+- 실행파일이 들어있는 드라이브 : https://www.dropbox.com/scl/fo/yyuvgrl0idjchoyd0wdh4/AL0qQ0WyEQnRcdMf3bI1blo?rlkey=u7tji8bdqgssvvwlxs68ecmd2&st=fa3tlsh2&dl=0
